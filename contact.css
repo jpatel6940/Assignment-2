@@ -1,0 +1,74 @@
+.form-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-field {
+    margin-bottom: 20px;
+    /* display: flex; */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#robot {
+    display: flex;
+    flex-direction: row;
+}
+
+.links:hover {
+    color: orangered;
+}
+
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.contact-link {
+    margin-left: -550px;
+}
+
+.container {
+    width: 60vw;
+}
+
+#second-container {
+    width: 35vw;
+    margin-left: 50px;
+    margin-top: -50px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
